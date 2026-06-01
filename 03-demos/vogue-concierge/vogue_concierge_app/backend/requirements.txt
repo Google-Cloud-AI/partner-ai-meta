@@ -187,7 +187,7 @@ typing-inspection==0.4.2
 tzdata==2026.1
 tzlocal==5.3.1
 uritemplate==4.2.0
-urllib3==2.6.3
+urllib3==2.7.0
 uuid-utils==0.14.1
 uvicorn==0.44.0
 watchdog==6.0.0
