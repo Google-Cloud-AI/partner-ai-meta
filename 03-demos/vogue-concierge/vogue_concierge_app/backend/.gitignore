@@ -14,3 +14,4 @@ local/
 out
 .env
 .adk
+requirements.txt
