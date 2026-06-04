@@ -111,7 +111,7 @@ sqlalchemy==2.0.45
 sqlalchemy-spanner==1.17.2
 sqlparse==0.5.5
 sse-starlette==3.1.2
-starlette==0.50.0
+starlette==1.0.1
 tenacity==9.1.2
 tiktoken==0.12.0
 tokenizers==0.22.2
