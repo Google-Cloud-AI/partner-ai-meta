@@ -29,13 +29,13 @@ resolution-markers = [
     "python_full_version < '3.14'",
 ]
 dependencies = [
-    { name = "aiohappyeyeballs", marker = "python_full_version < '3.14'" },
-    { name = "aiosignal", marker = "python_full_version < '3.14'" },
-    { name = "attrs", marker = "python_full_version < '3.14'" },
-    { name = "frozenlist", marker = "python_full_version < '3.14'" },
-    { name = "multidict", marker = "python_full_version < '3.14'" },
-    { name = "propcache", marker = "python_full_version < '3.14'" },
-    { name = "yarl", marker = "python_full_version < '3.14'" },
+    { name = "aiohappyeyeballs" },
+    { name = "aiosignal" },
+    { name = "attrs" },
+    { name = "frozenlist" },
+    { name = "multidict" },
+    { name = "propcache" },
+    { name = "yarl" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/50/42/32cf8e7704ceb4481406eb87161349abb46a57fee3f008ba9cb610968646/aiohttp-3.13.3.tar.gz", hash = "sha256:a949eee43d3782f2daae4f4a2819b2cb9b0c5d3b7f7a927067cc84dafdbb9f88", size = 7844556, upload-time = "2026-01-03T17:33:05.204Z" }
 wheels = [
@@ -100,13 +100,13 @@ resolution-markers = [
     "python_full_version >= '3.14'",
 ]
 dependencies = [
-    { name = "aiohappyeyeballs", marker = "python_full_version >= '3.14'" },
-    { name = "aiosignal", marker = "python_full_version >= '3.14'" },
-    { name = "attrs", marker = "python_full_version >= '3.14'" },
-    { name = "frozenlist", marker = "python_full_version >= '3.14'" },
-    { name = "multidict", marker = "python_full_version >= '3.14'" },
-    { name = "propcache", marker = "python_full_version >= '3.14'" },
-    { name = "yarl", marker = "python_full_version >= '3.14'" },
+    { name = "aiohappyeyeballs" },
+    { name = "aiosignal" },
+    { name = "attrs" },
+    { name = "frozenlist" },
+    { name = "multidict" },
+    { name = "propcache" },
+    { name = "yarl" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/45/4a/064321452809dae953c1ed6e017504e72551a26b6f5708a5a80e4bf556ff/aiohttp-3.13.4.tar.gz", hash = "sha256:d97a6d09c66087890c2ab5d49069e1e570583f7ac0314ecf98294c1b6aaebd38", size = 7859748, upload-time = "2026-03-28T17:19:40.6Z" }
 wheels = [
@@ -1784,18 +1784,18 @@ resolution-markers = [
     "python_full_version < '3.14'",
 ]
 dependencies = [
-    { name = "aiohttp", version = "3.13.3", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.14'" },
-    { name = "click", marker = "python_full_version < '3.14'" },
-    { name = "fastuuid", marker = "python_full_version < '3.14'" },
-    { name = "httpx", marker = "python_full_version < '3.14'" },
-    { name = "importlib-metadata", marker = "python_full_version < '3.14'" },
-    { name = "jinja2", marker = "python_full_version < '3.14'" },
-    { name = "jsonschema", marker = "python_full_version < '3.14'" },
-    { name = "openai", marker = "python_full_version < '3.14'" },
-    { name = "pydantic", marker = "python_full_version < '3.14'" },
-    { name = "python-dotenv", version = "1.0.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.14'" },
-    { name = "tiktoken", marker = "python_full_version < '3.14'" },
-    { name = "tokenizers", marker = "python_full_version < '3.14'" },
+    { name = "aiohttp", version = "3.13.3", source = { registry = "https://pypi.org/simple" } },
+    { name = "click" },
+    { name = "fastuuid" },
+    { name = "httpx" },
+    { name = "importlib-metadata" },
+    { name = "jinja2" },
+    { name = "jsonschema" },
+    { name = "openai" },
+    { name = "pydantic" },
+    { name = "python-dotenv", version = "1.0.1", source = { registry = "https://pypi.org/simple" } },
+    { name = "tiktoken" },
+    { name = "tokenizers" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/1f/ac/6cc660c476e1cb925055eb7d032b7774de71fce28b9dfec652fc277397f8/litellm-1.83.13.tar.gz", hash = "sha256:803b53077cd678bb78d40f1a971920a8cd06073520c756e3d2bcb5c4da7bd352", size = 14785817, upload-time = "2026-04-24T01:03:03.096Z" }
 wheels = [
@@ -1810,18 +1810,18 @@ resolution-markers = [
     "python_full_version >= '3.14'",
 ]
 dependencies = [
-    { name = "aiohttp", version = "3.13.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.14'" },
-    { name = "click", marker = "python_full_version >= '3.14'" },
-    { name = "fastuuid", marker = "python_full_version >= '3.14'" },
-    { name = "httpx", marker = "python_full_version >= '3.14'" },
-    { name = "importlib-metadata", marker = "python_full_version >= '3.14'" },
-    { name = "jinja2", marker = "python_full_version >= '3.14'" },
-    { name = "jsonschema", marker = "python_full_version >= '3.14'" },
-    { name = "openai", marker = "python_full_version >= '3.14'" },
-    { name = "pydantic", marker = "python_full_version >= '3.14'" },
-    { name = "python-dotenv", version = "1.2.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.14'" },
-    { name = "tiktoken", marker = "python_full_version >= '3.14'" },
-    { name = "tokenizers", marker = "python_full_version >= '3.14'" },
+    { name = "aiohttp", version = "3.13.4", source = { registry = "https://pypi.org/simple" } },
+    { name = "click" },
+    { name = "fastuuid" },
+    { name = "httpx" },
+    { name = "importlib-metadata" },
+    { name = "jinja2" },
+    { name = "jsonschema" },
+    { name = "openai" },
+    { name = "pydantic" },
+    { name = "python-dotenv", version = "1.2.2", source = { registry = "https://pypi.org/simple" } },
+    { name = "tiktoken" },
+    { name = "tokenizers" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/8d/7c/c095649380adc96c8630273c1768c2ad1e74aa2ee1dd8dd05d218a60569f/litellm-1.83.14.tar.gz", hash = "sha256:24aef9b47cdc424c833e32f3727f411741c690832cd1fe4405e0077144fe09c9", size = 14836599, upload-time = "2026-04-26T03:16:10.176Z" }
 wheels = [
@@ -3261,11 +3261,11 @@ wheels = [
 
 [[package]]
 name = "soupsieve"
-version = "2.8.3"
+version = "2.9"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/7b/ae/2d9c981590ed9999a0d91755b47fc74f74de286b0f5cee14c9269041e6c4/soupsieve-2.8.3.tar.gz", hash = "sha256:3267f1eeea4251fb42728b6dfb746edc9acaffc4a45b27e19450b676586e8349", size = 118627, upload-time = "2026-01-20T04:27:02.457Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/80/f1/93422647dd7e461f23d254e6b2bfa687a85b53aeb4903fcdbb74474d4584/soupsieve-2.9.tar.gz", hash = "sha256:acee8417325c5653e1377dc31eccad59eb82cbc65942afe6174c53b3aaad63fc", size = 122122, upload-time = "2026-07-19T01:35:18.425Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/46/2c/1462b1d0a634697ae9e55b3cecdcb64788e8b7d63f54d923fcd0bb140aed/soupsieve-2.8.3-py3-none-any.whl", hash = "sha256:ed64f2ba4eebeab06cc4962affce381647455978ffc1e36bb79a545b91f45a95", size = 37016, upload-time = "2026-01-20T04:27:01.012Z" },
+    { url = "https://files.pythonhosted.org/packages/7b/d6/3185ab5ad1280319b31986898f3206dd7227cd75e293d4dba2a5e6bf27a0/soupsieve-2.9-py3-none-any.whl", hash = "sha256:a2b2c76d67df2382d245409fd71e321a571717e58463efa32ace87dcadac2c12", size = 37387, upload-time = "2026-07-19T01:35:17.106Z" },
 ]
 
 [[package]]
