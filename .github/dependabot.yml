@@ -14,80 +14,17 @@
 
 version: 2
 updates:
-  # ==========================================
-  # 1. npm (JavaScript/TypeScript Ecosystem)
-  # ==========================================
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "monthly"
-    open-pull-requests-limit: 1
-    
-    # --- INCORPORATING THE GROUP RULE HERE ---
-    groups:
-      minor-and-patch-updates:
-        patterns:
-          - "*"
-        update-types:
-          - "minor"
-          - "patch"
-
-    ignore:
-      - dependency-name: "eslint"
-        update-types: ["version-update:semver-major", "version-update:semver-minor", "version-update:semver-patch"]
-      - dependency-name: "eslint-*"
-        update-types: ["version-update:semver-major", "version-update:semver-minor", "version-update:semver-patch"]
-      - dependency-name: "@typescript-eslint/*"
-        update-types: ["version-update:semver-major", "version-update:semver-minor", "version-update:semver-patch"]
-
-  # ==========================================
-  # 2. uv (Python Ecosystem)
-  # ==========================================
-  - package-ecosystem: "uv"
-    directory: "/"
-    schedule:
-      interval: "monthly"
-    open-pull-requests-limit: 1
-    groups:
-      minor-and-patch-updates:
-        patterns:
-          - "*"
-        update-types:
-          - "minor"
-          - "patch"
-
-  # ==========================================
-  # 3. Docker (Container Ecosystem)
-  # ==========================================
-  - package-ecosystem: "docker"
-    directory: "/"
-    schedule:
-      interval: "monthly"
-    open-pull-requests-limit: 1
-
-    # --- INCORPORATING THE GROUP RULE HERE ---
-    groups:
-      minor-and-patch-updates:
-        patterns:
-          - "*"
-        update-types:
-          - "minor"
-          - "patch"
-
-  # ==========================================
-  # 4. GitHub Actions (Workflow Ecosystem)
-  # ==========================================
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "monthly"
-    open-pull-requests-limit: 1
-
-    # --- INCORPORATING THE GROUP RULE HERE ---
+    # Disable routine version-bump PRs (only org-enforced security updates run).
+    open-pull-requests-limit: 0
+    # Bundle any org-level security updates into a single PR to prevent PR spam.
     groups:
-      minor-and-patch-updates:
+      github-actions-security:
+        applies-to: security-updates
         patterns:
           - "*"
-        update-types:
-          - "minor"
-          - "patch"
+    cooldown:
+      default-days: 7

@@ -1,2 +1,0 @@
-agent: adk api_server --port 8000
-api: cd vogue_concierge_app/backend && uvicorn main:app --reload --port 8080

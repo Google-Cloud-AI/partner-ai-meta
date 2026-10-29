@@ -12,8 +12,145 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# General
+# =============================================================================
+# Operating System Files
+# =============================================================================
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+._*
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+# Linux
+*~
+.directory
+.Trash-*
+# =============================================================================
+# IDEs and Editors
+# =============================================================================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swn
+*.swo
+*.swp
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+# Packaging & Testing / Linters
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+# =============================================================================
+# Jupyter Notebooks
+# =============================================================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+# =============================================================================
+# Environment Variables & Credentials
+# =============================================================================
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*service-account*.json
+*service_account*.json
+gcloud-service-key.json
+# =============================================================================
+# Node.js / Frontend (for demos & apps)
+# =============================================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.next/
+out/
+# =============================================================================
+# Terraform / Infrastructure
+# =============================================================================
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+# =============================================================================
+# Logs & Temporary Files
+# =============================================================================
+logs/
+*.log
+tmp/
+temp/
+.cache/
+
+# =============================================================================
+# Repo specific
+# =============================================================================
+# General
 __MACOSX/
 ._*
 
